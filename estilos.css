@@ -95,4 +95,8 @@ header a:hover{
 
 .Peliculas:first-child{
     background-image: url(Imagenes/BajoMundo.jpg);
+
+a:hover{
+    color: yellow;
+
 }
