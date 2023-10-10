@@ -3,11 +3,12 @@
 }
 body{
     margin: 0;
-    background-color:  #252B48 ;
-font-family:Arial, Helvetica, sans-serif
-   width: 100%;
-   height: 100%;
-}
+    background-color: #252B48; 
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%;
+    height: 100%;
+};
+
 
 h1{
     
@@ -92,9 +93,57 @@ header a:hover{
     background-size: cover;
     background-position: center;
 }
+.dimension{
+    width: 300px;
+    height: 450px;
+}
+.Peliculas{
+    
+    max-width: 300px;
+    margin: 50px auto;
+    border: 2px solid darkgreen;
+    box-shadow: 5px 5px 10px blue,
+    -5px -5px 10px violet;
+    display:block;
+    }
+    .img-tar{
+        width: 100%;
+    }
 
-.Peliculas:first-child{
-    background-image: url(Imagenes/BajoMundo.jpg);
+    p:hover{
+     
+        margin: 0;
+        background-color: #5B0888;
+    }
+.Peliculas:hover{
+    box-shadow: 5px 5px 10px violet ,
+    -5px -5px 10px  blue;
+    max-width: 310px
+    
+}
+/*.Peliculas:before {
+    content: "";
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #007bff transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Texto después de la imagen */
+  /*.Peliculas:after {
+    content: "¡Estreno!";
+    color: #ff0000; 
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }*/
 
 a:hover{
     color: yellow;
