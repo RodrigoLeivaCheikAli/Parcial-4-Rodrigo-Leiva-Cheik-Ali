@@ -28,10 +28,7 @@ p{
     font-size: 2.25em;
 }
 
-nav {
-    display: flex;
-    
-}
+
 #Salas{
     margin: 30px;
     display: flex;
@@ -98,14 +95,20 @@ justify-content: space-between;
     
   
 }
-a .img-tar {
- padding: 0;
- display: flex;
+
+a:hover{
+    color: rgb(240, 222, 54);
+ }
+.img-tar {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-   
- a:hover{
-   color: rgb(240, 222, 54);
-}
+ 
+
 
 #hero{
     font-family: 'DM Serif Display', serif;
@@ -122,14 +125,17 @@ a .img-tar {
     background-position: center;
 }
 .dimension{
-    width: 300px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
 }
 #Pelicula{
     display: flex;
     flex-direction:row;
     justify-content:center; 
     flex-wrap: wrap;
+    gap: 40px;
 }
 .Peliculas{
     
@@ -137,13 +143,11 @@ a .img-tar {
     margin: 50px auto;
     border: 2px solid darkgreen;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px blue,
-    -5px -5px 10px violet;
+    box-shadow: 5px 5px 10px blue, -5px -5px 10px violet;
     position: relative;
+    overflow: hidden; /* Evita que el contenido sobresalga y afecte el diseño */
     }
-    .img-tar{
-        width: 100%;
-    }
+    
 .Peliculas:hover{
     box-shadow: 5px 5px 10px violet ,
     -5px -5px 10px  blue;
@@ -204,4 +208,18 @@ a .img-tar {
     justify-content: center;
     font-size: 20px;
     padding: 0px 15px 0px 100px;
+}
+
+/*Cantina*/
+.Encabezado{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+#Subtitulo{
+    font-size: 3.2em;
+    font-family: 'DM Serif Display', serif;
 }

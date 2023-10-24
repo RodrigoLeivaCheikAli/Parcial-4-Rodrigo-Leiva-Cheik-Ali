@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #252B48; 
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%;
+    height: 100%;
+};
+
+
+h1{
+    
+    color: white ;
+    height: 100px;
+    font-size: 3.5em;
+    border-radius: 5px;
+ 
+    
+}
+
+
+header{
+    
+    background-color: #5b0888;
+}
+
+.logo{
+    font-family: 'DM Serif Display', serif;
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 4em;
+}
+
+.Titulo{
+    font-size: 6em;
+}
+ .container{
+max-width: 1400px;
+margin: auto;   
+display: flex;
+flex-direction: row;
+align-items:center;
+flex-wrap: wrap;
+justify-content: space-between;
+ 
+}
+
+ nav{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    padding-bottom: 25px;
+   
+}
+a{
+    padding: 10px 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+  
+}
+a:hover{
+    color: rgb(240, 222, 54);
+   
+ }
+ #Trailer{
+    font-size: 1.25em;
+ }
+#Pelicula{
+    display: Flex;
+ flex-direction:row;
+ justify-content:center; 
+ padding: 120px 150px 190px 100px;
+ flex-wrap: wrap;
+ margin: 40px;
+ gap: 40px;
+}
+
+.Texto{
+    max-width: 1000px;
+}
+.img-tar {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    max-width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.Titulo{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size:3.25em;
+}
+#Sipnosis{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.25em;
+}
+.footer{
+    margin: 0;
+    padding: 20px;
+    background-color: #121524; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%;
+    height: 100%;
+}
+
+#Copy{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 0px 15px 0px 100px;
+}
