@@ -74,6 +74,7 @@ a:hover{
  #Trailer{
     font-size: 1.25em;
  }
+ 
 #Pelicula{
     display: Flex;
  flex-direction:row;
@@ -87,19 +88,17 @@ a:hover{
 .Texto{
     max-width: 1000px;
 }
+
 .img-tar {
-    display: flex;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-.img{
-    max-width: 300px;
-    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 5px;
+  
     position: relative;
+    overflow: hidden;
 }
+
 .Titulo{
     display: flex;
     align-items: flex-end;
