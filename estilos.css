@@ -184,7 +184,7 @@ a:hover{
 .Titulos2{
     
         position: absolute;
-        top: -21.5px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+        top: -19.5px; /* Ajusta la distancia desde la parte superior según tus necesidades */
         right: -1px; /* Ajusta la distancia desde la izquierda según tus necesidades */
         background-color: rgb(223, 6, 6); 
         border-radius: 5px;
@@ -231,6 +231,14 @@ a:hover{
     font-family: 'DM Serif Display', serif;
 }
 
+.car{
+  
+   border: 10px solid var(--colorPrincipal) ;
+}
+
+.icar{
+    height: 800px;
+}
 @keyframes colores{
     0%{
         box-shadow: 5px 5px 10px violet ,
