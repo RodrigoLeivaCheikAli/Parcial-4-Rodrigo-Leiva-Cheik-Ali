@@ -3,25 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css">
+    <script src="https://kit.fontawesome.com/bac7ee9ae1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./estiloContacto.css">
     <title>Eterna Cines</title>
 </head>
 <body>
+    <header >
+        <div class="container">
+            <p class="logo">Eterna Cines</p>
+            <nav id="Cabecera">       
+                    <a href="index.html">Inicio</a>
+                    <a href="proxEstreno.html">Proximo Estrenos</a>
+                    <a href="cantina.html">Cantina</a>
+                    <a href="contacto.html">Contacto</a>
+                           
+            </nav>
+        </div>
+        
 
-    <header>
-        <nav>
-           
-            <h1>Eterna Cines</h1>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="proxEstreno.html">Proximo Estrenos</a></li>
-                <li><a href="cantina.html">Cantina</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-       
-        </nav>
-
-       
+        
     </header>
+    
+    <section id="contacto">
+        <div id="cont">
+            <h2>Contacto</h2>
+            <ul>
+            <li><i class="fa-solid fa-phone"> (3572)42 6570</i></li>
+            <li><i class="fa-brands fa-whatsapp"> 3572756570</i></li>
+            <li><i class="fa-solid fa-map-location-dot"> Blvd. Miguel Georgalos</i></li>
+        </ul>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.0493748254726!2d-63.9079325303484!3d-31.65581599838453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432cafff1f1cec1%3A0xf370c1a41d5322ac!2zUsOtbyBTZWd1bmRvLCBDw7NyZG9iYQ!5e0!3m2!1ses!2sar!4v1698444179846!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       <div id="Formu">
+        <form action="https://formspree.io/f/xleyavze" method="post" class="Formulario">
+            <label for="">Ingrese sus datos y la consulta aqui</label>
+            <label for="NombreUsuario">Nombre
+                <input type="text" name = "NombreUsuario" id="NombreUsuario" required>
+            </label>
+            <label for="Apellido">Apellido
+                <input type="text" name="Apellido" id="Apellido" required>
+            </label>
+            <label for="email"> @email                            
+                
+                <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required>
+            </label>
+            <label for="comentario">Ingrese la consulta
+           
+                <textarea name="comentarioUsuario" id="comentario"  cols="50" rows="2" placeholder="Ingrese la consulta"></textarea>
+            </label>
+            
+            <input type="submit" value="Enviar" id="Enviar">
+        </form>
+    </div>
+    </section>
+   
+    <footer>
+        <div class="footer">
+            <h3>Siguenos</h3>
+            <ul>
+                <a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+            </ul>
+            <p id="Copy">&copy; Eterna Cines</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
