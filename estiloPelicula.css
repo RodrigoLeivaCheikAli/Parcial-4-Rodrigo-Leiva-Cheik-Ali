@@ -79,7 +79,7 @@ a:hover{
     display: Flex;
  flex-direction:row;
  justify-content:baseline; 
- 
+ padding: 50px;
  flex-wrap: wrap;
  margin: 40px;
  gap: 40px;
